@@ -1,0 +1,9 @@
+1:"$Sreact.fragment"
+2:I[64807,["/wed-visual-editions/_next/static/chunks/0j8x9nzwehoi_.js"],"ClientPageRoot"]
+3:I[31713,["/wed-visual-editions/_next/static/chunks/0j8x9nzwehoi_.js","/wed-visual-editions/_next/static/chunks/10u2fe5e_b6uj.js"],"default"]
+6:I[79875,["/wed-visual-editions/_next/static/chunks/0j8x9nzwehoi_.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/wed-visual-editions/_next/static/chunks/10u2fe5e_b6uj.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"BpExNFrUPkGifa8hE2hQw"}
+4:{}
+5:"$0:rsc:props:children:0:props:serverProvidedParams:params"
+8:null
