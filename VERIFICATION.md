@@ -27,4 +27,4 @@
 - Responsive browser check is not a physical iPhone/Safari performance test.
 - The design is an interpretation of the two supplied references, not a claim of matching their production fidelity.
 - Final software raster seam adjustment requires one post-deployment visual check.
-- Minor cover bevels, softcover flex and translucent interleaves are not yet modeled; current distinctions are binding thickness, paper tone and material roughness.
+- Cover edges have small geometric bevels; the magazine cover has a slight outward curve; the photo edition has a translucent inside-cover material. These are restrained material treatments, not a full cloth/paper simulation.
