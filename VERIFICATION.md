@@ -26,5 +26,6 @@
 - Test browser disables WebGL; hardware-accelerated lighting/shadows cannot be directly verified there. Compatibility rendering uses the same Three.js scene and deformed geometry but simpler lighting.
 - Responsive browser check is not a physical iPhone/Safari performance test.
 - The design is an interpretation of the two supplied references, not a claim of matching their production fidelity.
-- Final software raster seam adjustment requires one post-deployment visual check.
+- Final depth-buffered rasterizer: deployed revision 7g inspected mid-turn; no strip cracks visible. verify-raster.mjs also verifies 1600 interior pixels and cover/block depth ordering.
+- Phone-sized actual navigation verified: 02 -> 03 -> 04 -> COVER; reverse from cover -> 04.
 - Cover edges have small geometric bevels; the magazine cover has a slight outward curve; the photo edition has a translucent inside-cover material. These are restrained material treatments, not a full cloth/paper simulation.
