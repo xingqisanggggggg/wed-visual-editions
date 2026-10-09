@@ -7,8 +7,8 @@
 :root{--ink:#eeeae1;--muted:#b7b8af}
 header{height:72px;background:#171b1b65;padding-inline:4vw}
 .hero{min-height:680px;padding-top:110px;height:100svh}
-.hero h1{font-size:clamp(100px,19vw,310px);margin-top:9vh;line-height:.8;letter-spacing:-.075em}
-.hero h1 .outline{font-family:'Instrument Serif',Georgia,serif;font-style:italic;font-weight:400;-webkit-text-stroke:0;color:var(--ink);letter-spacing:-.065em;margin:0 0 0 24vw;font-size:.88em}
+.hero h1{font-size:clamp(100px,18vw,320px);margin-top:7vh;line-height:.79;letter-spacing:-.07em}
+.hero h1 .outline{font-family:inherit;font-style:normal;font-weight:inherit;-webkit-text-stroke:1px #ece8df88;color:transparent;letter-spacing:inherit;margin-left:8vw;font-size:1em}
 .heroDot{display:inline!important;font:normal .32em Arial;vertical-align:middle;margin-left:3vw;color:#c4d3b5}
 .heroTop{color:#b5beb3}.heroBottom p{font-size:25px}.heroBottom a{letter-spacing:.08em}
 #environment{transition:background-color 1.4s;background-image:radial-gradient(ellipse at 44% 42%,#bfc7bf20,transparent 65%),linear-gradient(120deg,#10141155,#080a0b88)}
@@ -24,7 +24,7 @@ header{height:72px;background:#171b1b65;padding-inline:4vw}
 .edition h2{font-size:clamp(38px,4.6vw,80px);margin-bottom:22px;line-height:.95}
 .edition p{font-size:14px;line-height:1.65;max-width:330px}
 .edition dl{font-size:10px;margin:24px 0;gap:10px;grid-template-columns:85px 1fr}
-.edition:before{font:italic 32vw 'Instrument Serif',Georgia;right:7vw;bottom:-3vh;color:#ffffff04}
+.edition:before{font:500 28vw 'DM Sans',Arial,sans-serif;right:7vw;bottom:-3vh;color:#ffffff04}
 .enterEdition{font-size:11px;letter-spacing:.09em}
 .objectSlot:after{content:'OPEN EDITION ↗';position:absolute;bottom:0;left:50%;transform:translate(-50%,8px);opacity:0;font:10px 'Courier New',monospace;letter-spacing:.14em;transition:.3s;color:var(--ink)}
 .objectSlot:hover:after,.objectSlot:focus-visible:after{opacity:1;transform:translate(-50%,0)}
@@ -36,7 +36,7 @@ header{height:72px;background:#171b1b65;padding-inline:4vw}
 body.reading .galleryStage{pointer-events:none}
 @media(max-width:800px){
 header{height:66px}.hero{min-height:600px;padding-top:100px}
-.hero h1{font-size:25vw;margin-top:13vh}.hero h1 .outline{margin:15px 0 0 8vw;font-size:1.07em}.heroDot{margin-left:2vw}
+.hero h1{font-size:23vw;margin-top:50px;line-height:.95}.hero h1 .outline{margin:0;font-size:1em}
 .heroBottom p{font-size:20px}
 .collection{height:auto}.galleryStage{position:relative;top:0;height:auto;min-height:0;overflow:hidden}
 .sectionLabel{font-size:9px;gap:20px}.galleryHint{font-size:0}.galleryHint:after{content:'SWIPE TO DISCOVER →';font-size:9px}
