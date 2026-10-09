@@ -43,7 +43,7 @@ header{height:66px}.hero{min-height:600px;padding-top:100px}
 .galleryWindow{height:auto;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;overscroll-behavior-x:contain}
 #projectList{padding-left:0;transform:none!important;height:auto}
 .edition{width:92vw;flex-basis:92vw;display:block;padding:12px 4vw 22px;scroll-snap-align:center}
-.edition .objectSlot{height:48svh;min-height:290px}.editionCopy{padding:10px 3vw}
+.edition .objectSlot{height:48svh;min-height:290px;touch-action:auto}.editionCopy{padding:10px 3vw}
 .edition h2{font-size:40px;max-width:100%;margin-bottom:15px}.editionNumber{margin-bottom:15px}
 .edition p{font-size:13px;max-width:100%}.edition dl{display:none}.enterEdition{margin-top:8px}
 .galleryNav{position:relative;inset:auto;margin:0 4vw;padding:12px 0}.galleryCaption{display:none}
